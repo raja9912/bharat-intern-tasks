@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Conferencing Website</title>
+  <link rel="stylesheet" href="project3/text3.css">
+  <link rel="stylesheet" href="project3/text3.js">
+
+</head>
+<body>
+  <div id="video-container">
+    <video id="local-video" autoplay muted></video>
+    <video id="remote-video" autoplay></video>
+  </div>
+  <div id="chat-container">
+    <div id="chat-log">
+      <!-- Chat messages will be displayed here -->
+    </div>
+    <input type="text" id="message-input" placeholder="Type your message...">
+    <button id="send-button">Send</button>
+  </div>
+  <button id="start-call-button">Start Call</button>
+  <button id="end-call-button">End Call</button>
+
+  <script src="video-conferencing.js"></script>
+</body>
+</html>

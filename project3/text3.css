@@ -1,0 +1,85 @@
+/* Reset some default styles to provide a clean starting point */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+  }
+  
+  /* Layout for the main sections of the video conferencing website */
+  #video-container, #chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the video container */
+  #video-container {
+    max-width: 800px;
+    margin-bottom: 30px;
+  }
+  
+  video {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the chat section */
+  #chat-container {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  #chat-log {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #message-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #send-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the call buttons */
+  #start-call-button, #end-call-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Additional styling for the video conferencing website */
+  /* Add your additional CSS styles here */
+  

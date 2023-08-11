@@ -1,0 +1,38 @@
+/* Add your CSS styles here to customize the appearance of the Advanced Content Management Tool */
+
+#editor {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #toolbox {
+    width: 200px;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .draggable {
+    cursor: grab;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #content-area {
+    flex-grow: 1;
+    padding: 10px;
+    min-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #save-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
